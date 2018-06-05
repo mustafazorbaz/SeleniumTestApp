@@ -12,6 +12,10 @@
 9.Favorilere alinan bu urunun yanindaki 'Kaldir' butonuna basarak, favorilerimden cikaracak.
 10.Sayfada bu urunun artik favorilere alinmadigini onaylayacak.
 
+
+
+
+
 [![IMAGE ALT TEXT HERE](https://github.com/mustafazorbaz/SeleniumTestApp/blob/master/video.PNG?raw=true)](https://www.youtube.com/watch?v=iT0KOB9dGuM&feature=youtu.be?v=YOUTUBE_VIDEO_ID_HERE) 
 
 
