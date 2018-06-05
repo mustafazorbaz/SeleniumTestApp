@@ -1,5 +1,7 @@
 package com.n11.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +39,18 @@ public class Page extends Setting {
 	public ExpectedCondition<WebElement> elementClickableByClassName(String name){
 		ExpectedCondition<WebElement> clickable=ExpectedConditions.elementToBeClickable((By.className(name)));
 		return clickable;
-	} 
+	}
+	public ExpectedCondition<WebElement>  elementClickableByXpad(String name) {
+		ExpectedCondition<WebElement> clickable=ExpectedConditions.elementToBeClickable((By.xpath(name)));
+		return clickable;
+	}
+	public String getElementTextByXpad(String name){
+		return driver.findElement(By.xpath(name)).getText();
+	}
+	public List<WebElement> findListByXpad(String name){
+		List<WebElement> element=driver.findElements(By.xpath(name));
+		return element;
+	}
 	public void waitForPageLoad() {
 
 	    Wait<WebDriver> wait = new WebDriverWait(driver, 10);
