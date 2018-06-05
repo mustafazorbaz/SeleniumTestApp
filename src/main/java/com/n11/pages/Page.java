@@ -14,6 +14,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.google.common.base.Function;
 import com.n11.test.Setting;
 
+/**
+ * 
+ * @author Mustafa ZORBAZ
+ *
+ */
 public class Page extends Setting {
 	
 	public WebElement findById(String id){
