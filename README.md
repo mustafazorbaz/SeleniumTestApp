@@ -12,7 +12,6 @@
 9.Favorilere alinan bu urunun yanindaki 'Kaldir' butonuna basarak, favorilerimden cikaracak.
 10.Sayfada bu urunun artik favorilere alinmadigini onaylayacak.
 
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=iT0KOB9dGuM&feature=youtu.be)
- 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=iT0KOB9dGuM&feature=youtu.be?v=YOUTUBE_VIDEO_ID_HERE) 
 
 
