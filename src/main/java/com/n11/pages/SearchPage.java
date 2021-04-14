@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
  * @author Mustafa ZORBAZ
  *
  */
+
 public class SearchPage  extends BasePage{
 
 	@FindBy(id = "searchData")
